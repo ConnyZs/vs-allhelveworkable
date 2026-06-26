@@ -4,7 +4,7 @@
   "name": "All Helve Workable",
   "authors": ["ConnyZs"],
   "description": "Makes all anvil work items fully workable by the helve hammer.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "side": "Universal",
   "dependencies": {
     "game": "1.22.0"

@@ -28,6 +28,7 @@ public class GetHelveWorkableModePatch
 {
     static void Postfix(ref EnumHelveWorkableMode __result)
     {
-        __result = EnumHelveWorkableMode.FullyWorkable;
+        if (__result == EnumHelveWorkableMode.NotWorkable)
+            __result = EnumHelveWorkableMode.TestSufficientVoxelsWorkable;
     }
 }
